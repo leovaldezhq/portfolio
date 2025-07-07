@@ -1,0 +1,260 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    background-color: #ada3a3;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.main-header {
+    background-color: #8e7b7b;
+    padding: 10px 0;
+    border-bottom: 1px solid #333;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 5px;
+    flex-shrink: 0;
+}
+
+.header-logo {
+    width: 40px;
+    height: auto;
+    display: block;
+}
+
+.main-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.main-nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-nav ul li {
+    margin-left: 20px;
+}
+
+.main-nav ul li a {
+    color: #f0f0f0;
+    text-decoration: none;
+    padding: 8px 15px;
+    border: 1px solid #f0f0f0;
+    border-radius: 7px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.main-nav ul li a:hover { /*mudando as cores da navbar para melhor interatividade*/
+    background-color: #f0f0f0;
+    color: #1a1a1a;
+}
+
+.section-content {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.centered-content-prj { /*classe específica para aba 'Projetos' para tirar a borda exterior e melhorar o visual*/
+    background-color: #b2b2b238;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+.centered-content {
+    background-color: #b2b2b238;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 10px;
+    margin-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+
+.centered-content h2,
+.centered-content h3 {
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.centered-content p {
+    margin-bottom: 10px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    text-align: left;
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.contact-form label {
+    font-weight: bold;
+    align-self: flex-start;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #f0f0f0;
+    color: #000000;
+    font-size: 1rem;
+    font-family: sans-serif;
+    border: 1px solid #555;
+    border-radius: 10px;
+}
+
+.contact-form button {
+    background-color: #8e7b7b;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    width: fit-content;
+    align-self: center;
+    transition: background-color 0.3s;
+}
+
+.contact-form button:hover {
+    background-color: #605454;
+}
+
+.footer {
+    background-color: #222;
+    padding: 15px 0;
+    text-align: center;
+    border-top: 1px solid #333;
+    margin-top: 20px;
+}
+
+.footer p {
+    margin: 0;
+    font-size: 0.9em;
+    color: #aaa;
+}
+
+#pin {
+    width: 30px;
+}
+
+.ano {
+    font-size: 0.9em;
+    color: #f0f0f0;
+    margin-top: -5px;
+    margin-bottom: 10px;
+    display: block;
+}
+
+#academic ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#academic ul li h3 {
+    margin-bottom: 5px;
+}
+
+.ec-img {
+    max-width: 100%;
+    height: auto;
+    width: 400px;
+    display: block;
+    margin: 10px auto;
+    border: 1px solid #555;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.ec-img:hover { /*efeito como pop-up para interatividade nas img dos certificados*/
+    transform: scale(1.05);
+}
+
+.prj-item {
+    margin-bottom: 10px;
+    padding: 20px;
+    border: 1px solid #555;
+    border-radius: 5px;
+}
+
+.prj-item h3 {
+    margin-top: 0;
+    color: #f0f0f0;
+}
+
+.prj-item a {
+    color: #f0f0f0;
+    text-decoration: none;
+}
+
+.prj-item a:hover {
+    text-decoration: underline; /*sublinhando palavas com links atribuídos para facilitar o acesso a possíveis visitantes*/
+}
+
+.prj-img {
+    max-width: 100%;
+    height: auto;
+    width: 300px;
+    display: block;
+    margin: 10px auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.prj-img:hover {
+    transform: scale(1.04); /*efeito de pop-up para destaque nos projetos*/
+}
+
+.socials {
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+.social_ic {
+    width: 40px;
+    height: auto;
+    margin: 0 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.social_ic:hover {
+    transform: scale(1.1);
+}
