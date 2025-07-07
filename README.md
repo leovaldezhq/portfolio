@@ -1,10 +1,10 @@
 # portfolio
 Portfólio em HTML e CSS para projeto acadêmico
 
-Acesse aqui:
+Acesse aqui:  
 https://leovaldezhq.github.io/portfolio/
 
 Próximos passos:
-Adaptar para mobile
-Melhorar UX
+Adaptar para mobile  
+Melhorar UX  
 Melhorar interatividade e responsividade com JS
