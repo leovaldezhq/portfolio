@@ -199,6 +199,17 @@ ul li {
     margin-bottom: 5px;
 }
 
+#courses ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-bottom: 20px;
+}
+
+#courses ul li h3 {
+    margin-bottom: 5px;
+}
+
 .ec-img {
     max-width: 100%;
     height: auto;
